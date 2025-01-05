@@ -52,6 +52,7 @@
     <Compile Include="Formularios\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logica\Autenticacion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Login.resx">
@@ -82,7 +83,6 @@
   <ItemGroup>
     <Folder Include="DB\" />
     <Folder Include="Imagenes\" />
-    <Folder Include="Logica\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
