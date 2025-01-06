@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CelixSoftware.Formularios;
 
 namespace CelixSoftware
 {
@@ -20,6 +21,12 @@ namespace CelixSoftware
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Registro registro = new Registro();
+            registro.Show();
         }
     }
 }
