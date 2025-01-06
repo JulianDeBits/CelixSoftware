@@ -45,7 +45,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 329);
+            this.panel1.Size = new System.Drawing.Size(250, 361);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -108,7 +108,7 @@
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(360, 241);
+            this.button1.Location = new System.Drawing.Point(360, 271);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(332, 27);
             this.button1.TabIndex = 1;
@@ -129,7 +129,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(357, 286);
+            this.linkLabel2.Location = new System.Drawing.Point(357, 311);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(132, 13);
             this.linkLabel2.TabIndex = 5;
@@ -140,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 329);
+            this.ClientSize = new System.Drawing.Size(784, 361);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button1);

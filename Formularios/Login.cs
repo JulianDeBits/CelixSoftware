@@ -27,6 +27,7 @@ namespace CelixSoftware
         {
             Registro registro = new Registro();
             registro.Show();
+            this.Hide();
         }
     }
 }
