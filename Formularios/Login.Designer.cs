@@ -37,11 +37,15 @@
             this.button1 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -114,6 +118,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // linkLabel1
             // 
@@ -136,6 +141,16 @@
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "¿Olvidaste tu Contraseña?";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CelixSoftware.Properties.Resources.Icono_Principal;
+            this.pictureBox1.Location = new System.Drawing.Point(21, 79);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(208, 192);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -151,9 +166,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Login";
-            this.Opacity = 0.95D;
+            this.Opacity = 0.97D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,6 +187,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

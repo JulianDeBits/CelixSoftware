@@ -52,6 +52,12 @@
     <Compile Include="Formularios\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\PaginaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PaginaPrincipal.Designer.cs">
+      <DependentUpon>PaginaPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Registro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PaginaPrincipal.resx">
+      <DependentUpon>PaginaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
@@ -74,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,8 +100,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DB\" />
-    <Folder Include="Imagenes\" />
     <Folder Include="Logica\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono_Principal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

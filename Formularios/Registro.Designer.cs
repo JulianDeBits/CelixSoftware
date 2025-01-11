@@ -41,11 +41,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.tipodocumentobox = new System.Windows.Forms.ComboBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -167,6 +171,7 @@
             // 
             // tipodocumentobox
             // 
+            this.tipodocumentobox.BackColor = System.Drawing.Color.AliceBlue;
             this.tipodocumentobox.FormattingEnabled = true;
             this.tipodocumentobox.Items.AddRange(new object[] {
             "T.I.",
@@ -190,6 +195,16 @@
             this.linkLabel1.Text = "¿Ya tienes una cuenta?, Inicia sesion.";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CelixSoftware.Properties.Resources.Icono_Principal;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 84);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(208, 192);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -209,9 +224,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Registro";
-            this.Opacity = 0.95D;
+            this.Opacity = 0.97D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,5 +249,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox tipodocumentobox;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
