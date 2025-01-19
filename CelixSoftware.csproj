@@ -105,5 +105,17 @@
   <ItemGroup>
     <None Include="Resources\Icono_Principal.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ventas_Principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historial_Principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventarios_Principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Balances_Principal.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
