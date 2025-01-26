@@ -46,42 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formularios\Login.cs">
+    <Compile Include="App\ModificacionClientes.cs" />
+    <Compile Include="App\RegistroClientes.cs" />
+    <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Login.Designer.cs">
+    <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\PaginaPrincipal.cs">
+    <Compile Include="Forms\PaginaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\PaginaPrincipal.Designer.cs">
+    <Compile Include="Forms\PaginaPrincipal.Designer.cs">
       <DependentUpon>PaginaPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Registro.cs">
+    <Compile Include="Forms\Registro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Registro.Designer.cs">
+    <Compile Include="Forms\Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Ventas.cs">
+    <Compile Include="Forms\Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Ventas.Designer.cs">
+    <Compile Include="Forms\Ventas.Designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
+    <Compile Include="App\SumaVenta.cs" />
+    <Compile Include="App\RegistroVentaDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\Login.resx">
+    <Compile Include="Security\Encriptacion.cs" />
+    <Compile Include="Security\Validacion.cs" />
+    <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\PaginaPrincipal.resx">
+    <EmbeddedResource Include="Forms\PaginaPrincipal.resx">
       <DependentUpon>PaginaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Registro.resx">
+    <EmbeddedResource Include="Forms\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Ventas.resx">
+    <EmbeddedResource Include="Forms\Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -109,7 +115,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DB\" />
-    <Folder Include="Logica\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icono_Principal.png" />
