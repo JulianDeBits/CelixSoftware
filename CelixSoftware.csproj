@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="App\ModificacionClientes.cs" />
     <Compile Include="App\RegistroClientes.cs" />
+    <Compile Include="DB\ConexionDB.cs" />
     <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,9 +123,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DB\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Icono_Principal.png" />
   </ItemGroup>
